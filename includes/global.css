@@ -1,0 +1,11 @@
+body {
+  width: 1750px;
+  margin: auto;
+}
+
+.post a {
+  float: left;
+  margin: 0 5px 0px 0px;
+  position: relative;
+}
+
