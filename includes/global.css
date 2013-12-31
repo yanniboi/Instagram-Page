@@ -3,9 +3,56 @@ body {
   margin: auto;
 }
 
+#main {
+  float:left;
+  position: relative;
+  margin-bottom: -5px;
+}
+
+#main .overlay {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  width: 100%;
+}
+
+#main .overlay .hidden {
+  display: none;
+}
+
+#main .overlay .hidden img {
+  width: 40px;
+  border-radius: 20px;
+}
+
+#main .overlay span.like-image {
+  background: url(//d36xtkk24g8jdx.cloudfront.net/bluebar/bfb9d1c/images/MediaItem/MediaItem.png) no-repeat -50px 0px;
+  background: url(//d36xtkk24g8jdx.cloudfront.net/bluebar/bfb9d1c/images/profile/profile-page-assets.png) no-repeat 10px -95px;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+}
+
+#main .overlay span.comment-image {
+  background: url(//d36xtkk24g8jdx.cloudfront.net/bluebar/bfb9d1c/images/profile/profile-page-assets.png) no-repeat 10px 5px;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+}
+
+#main .overlay .date p {
+  margin: 0px;
+  padding: 10px;
+  font-weight: normal;
+}
+
 .post a {
   float: left;
-  margin: 0 5px 0px 0px;
+  margin-bottom: -5px;
   position: relative;
 }
 
